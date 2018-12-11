@@ -23,5 +23,7 @@ namespace BookwormRSL.Models
 
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
+
+        public virtual ICollection<Book> Books { get; set; }
     }
 }

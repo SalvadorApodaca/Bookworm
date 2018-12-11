@@ -14,5 +14,16 @@ namespace BookwormRSL.Models
         [Required]
         [Key]
         public int Id { get; set; }
+
+        [Required]
+        public DateTime StartDate { get; set; }
+
+        public DateTime EndDate { get; set; }
+
+        [Required]
+        public int BookId { get; set; }
+
+        [ForeignKey("BookId")]
+        public virtual Book Book { get; set; }
     }
 }

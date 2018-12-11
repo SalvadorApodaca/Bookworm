@@ -50,7 +50,9 @@
   <ItemGroup>
     <Compile Include="Author.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="BookLending.cs" />
     <Compile Include="Category.cs" />
+    <Compile Include="Contact.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadingHistory.cs" />

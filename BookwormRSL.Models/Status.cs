@@ -15,5 +15,7 @@ namespace BookwormRSL.Models
 
         [Required]
         public string Name { get; set; }
+
+        public virtual ICollection<Book> Books { get; set; }
     }
 }
