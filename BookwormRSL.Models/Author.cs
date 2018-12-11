@@ -27,5 +27,7 @@ namespace BookwormRSL.Models
 
         [MaxLength(255)]
         public string PicturePath { get; set; }
+
+        public virtual ICollection<Book> Books { get; set; }
     }
 }
