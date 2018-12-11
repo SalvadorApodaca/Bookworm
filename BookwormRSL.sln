@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookwormRSL.Data", "BookwormRSL.Data\BookwormRSL.Data.csproj", "{ED788998-013A-44DE-9334-08A9450107F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookwormRSL.Models", "BookwormRSL.Models\BookwormRSL.Models.csproj", "{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED788998-013A-44DE-9334-08A9450107F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED788998-013A-44DE-9334-08A9450107F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED788998-013A-44DE-9334-08A9450107F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED788998-013A-44DE-9334-08A9450107F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
