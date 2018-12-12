@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookwormRSL.Data", "Bookwor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookwormRSL.Models", "BookwormRSL.Models\BookwormRSL.Models.csproj", "{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookwormRSL.Business", "BookwormRSL.Business\BookwormRSL.Business.csproj", "{833C77C4-05BB-481F-8FE6-280D8B5D661B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookwormRSL.Service", "BookwormRSL.Service\BookwormRSL.Service.csproj", "{C5FAF93B-A282-4620-AC79-E49835EF8682}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2C1C7F1-F5C6-4BBB-8EC1-FA99018D4094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833C77C4-05BB-481F-8FE6-280D8B5D661B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833C77C4-05BB-481F-8FE6-280D8B5D661B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833C77C4-05BB-481F-8FE6-280D8B5D661B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833C77C4-05BB-481F-8FE6-280D8B5D661B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5FAF93B-A282-4620-AC79-E49835EF8682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FAF93B-A282-4620-AC79-E49835EF8682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FAF93B-A282-4620-AC79-E49835EF8682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FAF93B-A282-4620-AC79-E49835EF8682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
