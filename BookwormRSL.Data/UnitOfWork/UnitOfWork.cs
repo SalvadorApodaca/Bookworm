@@ -27,9 +27,9 @@ namespace BookwormRSL.Data.UnitOfWork
         public IGenericRepository<ReadingHistory> HistoryRepository => _historyRepository ?? (_historyRepository = new GenericRepository<ReadingHistory>(_context));
         public IGenericRepository<Status> StatusRepository => _statusRepository ?? (_statusRepository = new GenericRepository<Status>(_context));
 
-        public UnitOfWork(BookwormDbContext context)
+        public UnitOfWork()
         {
-            _context = context;
+            _context = new BookwormDbContext();
         }
 
         public void Commit()
@@ -46,14 +46,14 @@ namespace BookwormRSL.Data.UnitOfWork
 
         protected virtual void Dispose(bool disposing)
         {
-            if (!this.disposed)
+            if (!disposed)
             {
                 if (disposing)
                 {
                     _context.Dispose();
                 }
             }
-            this.disposed = true;
+            disposed = true;
         }
 
         public void Dispose()
